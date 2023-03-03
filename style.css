@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+header{
+    background-color: #5C582C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+    padding: 10px;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: #F5F2D0;
+}
+
+#texto_navegador{
+    color: #F5F2D0;
+    font-size: large;
+    padding: 20px;
+    text-decoration: none;
+}
+
+main{
+    min-height: 89vh;
+    background-color: #F5F2D0;
+}
+
+.section_one{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10vh;
+}
+
+.section_one_imagem{
+    width: 20%;
+    border-radius: 4%;
+}
+
+.section_one_descriçao{
+    padding: 10px;
+    color: #5C582C;
+}
+
+.section_one_paragrafo{
+    text-align: justify;
+    width: 30vh;
+    color: #5C582C;
+}
+
+.section_two{
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.section_two_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    color: #5C582C;
+    
+}
+
+.section_two_title{
+    border-bottom: #5C582C solid 3px;
+    padding: 2px;
+    color: #5C582C;
+}
+
+.section_two_text{
+    border:#5C582C solid 1px;
+    width: 17vw;
+    height: 17vh;
+}
+
+.section_two_text_title{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 1px;
+}
+
+.section_two_text_li{
+    list-style: none;
+    margin: 8px;
+    text-align: center;
+}
+
+#item{
+    padding: 1px;
+}
+
+#projetos_title{
+    text-align: center;
+    color: #5C582C;
+    padding: 60px;
+    font-size: xx-large;
+}
+
+.projetos_h3{
+    color: #5C582C;
+    border-bottom: #5C582C solid 3px;
+    padding: 2px;
+    margin: 20px;
+
+}
+
+footer{
+    background-color: #5C582C;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F2D0;
+}
